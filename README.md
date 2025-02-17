@@ -7,7 +7,7 @@ Install and configure RSAT tools on Windows 10 for remote administration of serv
 Use Server Manager to manage server roles and features in a domain environment.
 Perform basic administrative tasks such as user management and role configuration from a client machine.
 ## Documentation
-In this home lab, I will demonstrate how to install Windows 10 for a local account and join it to our domain (SimoTech.com). To achieve this, we will create a separate virtual machine for the Windows 10 installation, specifically for our local Help Desk account. Next, we will download and install the RSAT (Remote Server Administration Tools) tools to enable the Help Desk account to access and manage Active Directory.
+In this home lab, I will demonstrate how to install Windows 10 for a local account and join it to our domain (tobifash.com). To achieve this, we will create a separate virtual machine for the Windows 10 installation, specifically for our local Help Desk account. Next, we will download and install the RSAT (Remote Server Administration Tools) tools to enable the Help Desk account to access and manage Active Directory.
 
 The process begins with downloading the Windows 10 Installation Media Tool from the official Microsoft website: [Windows 10 Installation Media Tool](https://www.microsoft.com/en-us/software-download/windows10).
 
@@ -83,6 +83,50 @@ The process begins with downloading the Windows 10 Installation Media Tool from 
     <br>
 
 ![68747470733a2f2f692e696d6775722e636f6d2f4658736d7044562e706e67](https://github.com/user-attachments/assets/740da4a5-43c1-47ce-88cb-a4e074b2db44)
+
+<br>
+
+11. Enter "User" as the name, skip the password creation, and click Next.
+
+<br>
+
+![68747470733a2f2f692e696d6775722e636f6d2f7854614c4871332e706e67](https://github.com/user-attachments/assets/9587d8cd-4b19-455c-b190-d155a25a73a0)
+
+<br>
+
+12. Now we should have our Windows 10 ready.
+
+<br> 
+
+![68747470733a2f2f692e696d6775722e636f6d2f683962565245502e706e67](https://github.com/user-attachments/assets/28d1f12c-5c52-4595-837a-9a9d831778c7)
+
+<br>
+
+13. For best practice in a lab environment, we’ll configure static IP addresses for both virtual machines. This ensures consistent network communication and allows us to successfully connect the Windows 10 machine to the domain, enabling seamless interaction between the two virtual machines. Next, switch to the Windows Server 2022 virtual machine. Open the Control Panel and go to View network status and tasks → Change adapter settings.
+
+<br>
+
+![68747470733a2f2f692e696d6775722e636f6d2f615531337432662e706e67 (1)](https://github.com/user-attachments/assets/03f7a381-3736-4c9f-b34e-83602cf5b393)
+
+<br>
+
+14.Open the Control Panel and go to View network status and tasks → Change adapter settings.
+
+<br>
+
+![68747470733a2f2f692e696d6775722e636f6d2f394a35684b67642e706e67](https://github.com/user-attachments/assets/49e9e4c0-4d79-4b31-800b-636639833587)
+
+<br>
+15. Right-click the network connection (Ethernet) and select Properties to begin configuring the network settings.
+<br>
+
+![68747470733a2f2f692e696d6775722e636f6d2f4b71507a5372692e706e67](https://github.com/user-attachments/assets/de03aecc-85b0-4022-85db-489d3d6727ba)
+
+
+<br>
+
+16. Double-click on Internet Protocol Version 4 (TCP/IPv4).
+
 
 
 
