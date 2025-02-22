@@ -306,7 +306,9 @@ Click Install (7). Once the installation is complete, restart the virtual machin
 
 <br>
 
-![image](https://github.com/user-attachments/assets/c669e8ba-c08e-40b2-8f1c-df489457fcad)
+![image](https://github.com/user-attachments/assets/c669e8ba-c08e-40b2-8f1c-df489457fcad) 
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/a6ee9162-431e-436f-bd72-8d9707f9b1d4)
 
@@ -315,11 +317,15 @@ Click Install (7). Once the installation is complete, restart the virtual machin
 
 
 36. Next, we will set a static IP on our Windows 10 machine, just as we did with the Windows Server 2022 machine, and join it to the domain tobifash.com. As before, open Control Panel on your Windows 10 Project machine, select View network status and tasks, then Change adapter settings. Right-click on the Ethernet connection and select Properties, then double-click Internet Protocol Version 4 (TCP/IPv4). Select Use the following IP address and enter the following:
-
+<br>
 IP Address: 192.168.1.101
+
 Subnet Mask: 255.255.255.0
+
 Default Gateway: 192.168.1.1
+
 Preferred DNS: 192.168.1.1
+<br>
 
 Next, update the network settings on your virtual machine as we did earlier by selecting Devices → Network → Network Settings, and change NAT to Host-only Adapter.
 
@@ -339,7 +345,7 @@ This is the static IP we set up for the Windows Server 2022 machine.
 
 <br>
 
-38. Now that we can ping the Windows Server 2022 machine, we can finally join our Windows 10 machine to the SimoTech.com domain. First, open File Explorer, right-click on This PC, and select Properties. Then, click on Rename this PC (advanced), followed by Change. Under Domain, type SimoTech.com.
+38. Now that we can ping the Windows Server 2022 machine, we can finally join our Windows 10 machine to the tobifash.com domain. First, open File Explorer, right-click on This PC, and select Properties. Then, click on Rename this PC (advanced), followed by Change. Under Domain, type tobifash.com.
 
 
 <br>
