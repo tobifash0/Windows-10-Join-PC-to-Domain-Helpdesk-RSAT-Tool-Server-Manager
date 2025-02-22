@@ -327,7 +327,7 @@ Default Gateway: 192.168.1.1
 Preferred DNS: 192.168.1.1
 <br>
 
-Next, update the network settings on your virtual machine as we did earlier by selecting Devices → Network → Network Settings, and change NAT to Host-only Adapter.
+37. Next, update the network settings on your virtual machine as we did earlier by selecting Devices → Network → Network Settings, and change NAT to Host-only Adapter.
 
 
 <br>
@@ -336,7 +336,7 @@ Next, update the network settings on your virtual machine as we did earlier by s
 
 <br>
 
-37. Now that our networks and static IPs are set up, let's test the connection by pinging our Windows 10 machine from the Windows Server 2022 machine. On the Windows 10 Project machine, open Command Prompt and type: ping 192.168.1.100
+38. Now that our networks and static IPs are set up, let's test the connection by pinging our Windows 10 machine from the Windows Server 2022 machine. On the Windows 10 Project machine, open Command Prompt and type: ping 192.168.1.100
 
 This is the static IP we set up for the Windows Server 2022 machine.
 <br>
