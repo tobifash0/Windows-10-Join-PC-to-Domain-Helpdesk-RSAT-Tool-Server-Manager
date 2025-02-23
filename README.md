@@ -135,8 +135,11 @@ The process begins with downloading the Windows 10 Installation Media Tool from 
 17. Select Use the following IP address, then configure the static IP address as follows:
 
 IP Address: 192.168.1.100
+
 Subnet Mask: 255.255.255.0
+
 Default Gateway: 192.168.1.1
+
 Preferred DNS: 168.192.1.1
 
 
