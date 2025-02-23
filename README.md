@@ -334,6 +334,7 @@ Preferred DNS: 192.168.1.1
 
 ![Screenshot 2025-02-22 at 6 26 25 PM](https://github.com/user-attachments/assets/384fdb21-bdff-4062-80e7-92b1f1bc7d91)
 
+
 <br>
 
 38. Now that our networks and static IPs are set up, let's test the connection by pinging our Windows 10 machine from the Windows Server 2022 machine. On the Windows 10 Project machine, open Command Prompt and type: ping 192.168.1.100
@@ -373,5 +374,26 @@ This is the static IP we set up for the Windows Server 2022 machine.
 
 <br>
 
+<img width="689" alt="Screenshot 2025-02-22 at 6 59 52 PM" src="https://github.com/user-attachments/assets/437c017d-abd4-4d99-85de-10ace9c8d730" />
 
+<br>
+
+42. Now, we can sign in to the Helpdesk account on our Windows 10 machine. On the login screen, make sure to select Other Users, and then log in using the Helpdesk account credentials.
+
+<br> 
+
+![image](https://github.com/user-attachments/assets/8af3f972-b1be-40fd-9be5-4c569331ec21)
+
+<br>
+
+43. Congratulations! We have successfully set up Windows 10, joined the PC to the domain, and installed the RSAT tools, google and TeamViewer. You can now search for applications like 'Server Manager' and 'Active Directory Users and Computers,' then pin them to the task bar for quick access by right-clicking and selecting 'Pin to taskbar.
+
+<br>
+
+![Screenshot 2025-02-19 at 3 09 59 AM](https://github.com/user-attachments/assets/3351b5fb-5f6d-4f88-9acc-9183acc566ff)
+
+
+<br>
+
+👉 [Next Lab 5 : Join Windows 10 to Domain (Local User), Group Policy, RSOP Reports](https://github.com/tobifash0/Join-Windows-10-to-Domain-Local-User-Group-Policy-RSOP-Reports/tree/main)
 
